@@ -42,10 +42,10 @@ Thumbs.db
 logs/
 *.log
 
-# Model files (large files - consider Git LFS)
-*.pt
-*.pth
-*.weights
+# Model files (large files - removed from ignore to allow tracking)
+# *.pt
+# *.pth
+# *.weights
 
 # Data files
 *.jpg
