@@ -42,6 +42,9 @@ Thumbs.db
 logs/
 *.log
 
+# Training outputs
+runs/
+
 # Model files (large files - removed from ignore to allow tracking)
 # *.pt
 # *.pth
