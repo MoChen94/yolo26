@@ -1,10 +1,10 @@
 # YOLO26 - 目标检测模型训练框架
 
-![YOLO Logo](https://img.alicdn.com/imgextra/i2/O1CN01vYr7xG1XpF3GfJ0uT_!!6000000002971-2-tps-160-160.png)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MoChen94/yolo26)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
+![CUDA](https://img.shields.io/badge/CUDA-supported-green)
 
-YOLO26 是一个基于 YOLO（You Only Look Once）算法的目标检测模型训练框架，提供快速、准确的目标检测解决方案。**v1.0.0 版本现已发布，支持 CPU 训练！**
+YOLO26 是一个基于 YOLO（You Only Look Once）算法的目标检测模型训练框架，提供快速、准确的目标检测解决方案。**v2.0.0 版本现已发布，支持 GPU 训练！**
 
 ## 🚀 功能特点
 
@@ -97,13 +97,14 @@ results.show()
 ```
 yolo26/
 ├── main.py                 # 主程序入口
-├── train_main.py           # 训练主程序 (v1.0.0新增)
+├── train_main.py           # 训练主程序
+├── test_cuda.py           # GPU 验证工具 (v2.0.0新增)
 ├── yolo26n.pt             # YOLO 预训练模型
 ├── environment_setup.md   # 环境配置文档
-├── train_data/            # 训练数据集 (v1.0.0新增)
+├── train_data/            # 训练数据集
 │   ├── data.yaml          # 数据集配置文件
 │   └── labels/            # 标注文件
-├── runs/                  # 训练结果输出 (v1.0.0新增)
+├── runs/                  # 训练结果输出
 ├── ultralytics/           # YOLO 库
 └── ultralytics-main/      # YOLO 主代码库
 ```
@@ -122,4 +123,10 @@ yolo26/
 
 ---
 
-**YOLO26** - 让目标检测变得更简单！
+**YOLO26** - 让目标检测变得更简单、更高效！
+
+### 🚀 v2.0.0 版本亮点
+- ✅ **GPU 训练支持**：大幅提升训练速度
+- ✅ **CUDA 验证工具**：快速检测 GPU 环境
+- ✅ **性能优化**：GPU 训练可达 100-200 张/分钟
+- ✅ **文档完善**：详细的 CPU/GPU 切换指南
