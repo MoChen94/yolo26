@@ -45,6 +45,9 @@ logs/
 # Training outputs
 runs/
 
+# Training data (not uploaded to GitHub)
+train_data/
+
 # Model files (large files - removed from ignore to allow tracking)
 # *.pt
 # *.pth
