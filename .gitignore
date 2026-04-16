@@ -45,8 +45,9 @@ logs/
 # Training outputs
 runs/
 
-# Training data (not uploaded to GitHub)
-train_data/
+# Training data images and labels (not uploaded to GitHub)
+train_data/images/
+train_data/labels/
 
 # Model files (large files - removed from ignore to allow tracking)
 # *.pt

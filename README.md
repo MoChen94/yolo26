@@ -101,6 +101,14 @@ yolo26/
 ├── test_cuda.py           # GPU 验证工具 (v2.0.0新增)
 ├── yolo_detect.py         # USB 摄像头实时检测 (v2.0.2新增)
 ├── yolo26n.pt             # YOLO 预训练模型
+├── train_data/            # 训练数据集配置目录 (v2.1.1)
+│   ├── data.yaml          # 数据集配置文件
+│   ├── images/            # 训练图片目录 (不上传)
+│   │   ├── train/         # 训练集图片
+│   │   └── val/          # 验证集图片
+│   └── labels/            # 标注文件目录 (不上传)
+│       ├── train/         # 训练集标注
+│       └── val/          # 验证集标注
 ├── runs/                  # 训练结果输出
 ├── ultralytics/           # YOLO 库
 └── ultralytics-main/      # YOLO 主代码库
